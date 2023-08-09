@@ -21,6 +21,7 @@ const InputField = ({ ...other }) => {
           value={value}
           type={type}
           name={name}
+          maxlength="30"
           pattern={pattern}
           title={title}
           required={required}
